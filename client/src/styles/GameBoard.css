@@ -1,0 +1,47 @@
+.game-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    gap: 30px;
+}
+
+.computer-display {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.computer-display h3 {
+    color: #3a4a6d;
+    margin-top: 0;
+}
+
+.computer-word {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-round-button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.next-round-button:hover {
+    background: #5a6fd1;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
